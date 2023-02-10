@@ -6,7 +6,7 @@ import plus from '../assets/plus.svg';
 function Weather() {
     const [city, setCity] = useState('');
     const [weatherData, setWeatherData] = useState([]);
-    const apiKey = 'e432d20167d72c2690dea0267bf84308';
+    const apiKey = '';  // Use your OpenWeatherMap api key
     const days = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
 
     const dateFormatter = (num) => (num > 9 ? num : '0' + num);
